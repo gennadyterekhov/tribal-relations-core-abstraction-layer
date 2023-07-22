@@ -1,4 +1,4 @@
-package main
+package count_population
 
 import (
 	"github.com/gennadyterekhov/tribal-relations-core/entity"

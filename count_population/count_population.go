@@ -2,15 +2,12 @@ package count_population
 
 import (
 	"github.com/gennadyterekhov/tribal-relations-core/entity"
-	// "github.com/gennadyterekhov/tribal-relations/core/population.go"
 )
 
-//	"github.com/gennadyterekhov/tribal-relations/core/entity/tribe.go"
-
 func CountPopulation(fertility int, availableFood int, currentPopulation int) int {
-	temp_tribe := createTribe()
+	tempTribe := createTribe()
 
-	count := temp_tribe.GetNewPopulationCount(fertility)
+	count := tempTribe.GetNewPopulationCount(fertility)
 
 	return count
 }
